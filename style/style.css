@@ -287,6 +287,12 @@
     align-items: center;
 }
 
+.footer p{
+    margin-top: 50px;
+    width: 100%;
+    text-align:center;
+}
+
 .mail{
     display: flex;
     flex-direction: column;
@@ -325,6 +331,7 @@
     font-size: 20px;
     align-self: center;
     margin-right: 20px;
+    margin: 0 auto;
 }
 
 .wrapper .icon{
@@ -453,6 +460,9 @@
         top: -60px;
         opacity: 1;
         pointer-events: auto;
+    }
+    .wrapper p{
+        vertical-align: top;
     }
 }
 
