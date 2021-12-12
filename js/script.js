@@ -5,3 +5,9 @@ if (history.scrollRestoration) {
         window.scrollTo(0, 0);
     }
 }
+
+var elem = document.getElementById("logo");
+
+window.onload = function () {
+    elem.style.marginRight = "0px";
+}
