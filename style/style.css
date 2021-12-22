@@ -261,11 +261,14 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
+    align-self: center;
     width: 100%;
 }
 
 .partners .part-gallery img{
     margin: 15px;
+    align-self: center;
+    transform: scale(0.9);
 }
 
 .footer{
