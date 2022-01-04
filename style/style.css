@@ -441,6 +441,12 @@
     background: #DE463B;
 }   
 
+@media screen and (min-width: 1400px){
+    .partners .part-gallery img{
+        transform: scale(0.8);
+    }
+}
+
 @media screen and (max-width: 1400px){
     .navigation .title-bar{
         width: 80vh;
@@ -449,7 +455,7 @@
         padding-bottom: 50px;
     }
     .partners .part-gallery img{
-        transform: scale(0.9);
+        transform: scale(0.8);
     }
 }
 
@@ -473,7 +479,9 @@
     .wrapper p{
         vertical-align: top;
     }
-    
+    .partners .part-gallery img{
+        transform: scale(0.8);
+    }
 }
 
 @media screen and (max-width: 1000px){
@@ -489,6 +497,9 @@
     }
     .about{
         padding: 100px;
+    }
+    .partners .part-gallery img{
+        transform: scale(0.8);
     }
 }
 
@@ -519,6 +530,9 @@
     .partners{
         padding: 50px;
     }
+    .partners .part-gallery img{
+        transform: scale(0.8);
+    }
 }
 
 @media screen and (max-width: 600px){
@@ -530,6 +544,9 @@
     } */
     .footer{
         padding: 50px;
+    }
+    .partners .part-gallery img{
+        transform: scale(0.8);
     }
 }
 
