@@ -445,6 +445,9 @@
     .partners .part-gallery img{
         transform: scale(0.8);
     }
+    .partners{
+        padding-bottom: 10px;
+    }
 }
 
 @media screen and (max-width: 1400px){
