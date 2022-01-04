@@ -243,6 +243,7 @@
 .partners{
     padding: 200px;
     padding-top: 50px;
+    padding-bottom: 100px;
     width: 100%;
     display: flex;
     align-items: center;
@@ -268,7 +269,6 @@
 .partners .part-gallery img{
     margin: 15px;
     align-self: center;
-    transform: scale(0.9);
 }
 
 .footer{
@@ -445,6 +445,12 @@
     .navigation .title-bar{
         width: 80vh;
     }
+    .partners{
+        padding-bottom: 50px;
+    }
+    .partners .part-gallery img{
+        transform: scale(0.9);
+    }
 }
 
 @media screen and (max-width: 1200px){
@@ -467,6 +473,7 @@
     .wrapper p{
         vertical-align: top;
     }
+    
 }
 
 @media screen and (max-width: 1000px){
@@ -544,6 +551,9 @@
     .footer{
         padding: 30px;
     }
+    .partners .part-gallery img{
+        transform: scale(0.65);
+    }
 }
 
 @media screen and (max-width: 450px){
@@ -587,8 +597,17 @@
         padding-bottom: 50px;
         padding-right: 0px;
     }
+    .partners{
+        padding-bottom: 0;
+    }
+    #sponsors{
+        padding-top: 20px;
+    }
     .mail a .textf{
         font-size: 14px;
+    }
+    #info{
+        transform: scale(0.5);
     }
 }
 
