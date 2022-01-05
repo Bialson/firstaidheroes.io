@@ -11,6 +11,8 @@
     --clr: white;
 }
 
+/*INDEX.html style*/
+
 .title{
     width: 100%;
     height: 90vh;
@@ -204,6 +206,12 @@
     flex-wrap: wrap;
 }
 
+.team-img{
+    max-width: 100%;
+    border-radius: 6px;
+    max-height: 100%;
+}
+
 .team h1{
     margin-bottom: 50px;
     text-align: center;
@@ -348,6 +356,8 @@
     position: relative;
     z-index: 2;
     transition: 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    height: max-content;
+    align-self: center;
 }
 
 .wrapper .icon span{
@@ -439,7 +449,21 @@
 .wrapper .youtube:hover .tooltip,
 .wrapper .youtube:hover .tooltip:before{
     background: #DE463B;
-}   
+}
+
+/*FILES.html style*/
+
+/*TODO: here*/
+/*
+
+
+
+
+*/
+
+#cl-dl{
+    font-size: 100px;
+}
 
 @media screen and (min-width: 1400px){
     .partners .part-gallery img{
