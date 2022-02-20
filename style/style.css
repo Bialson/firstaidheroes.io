@@ -302,6 +302,11 @@
     align-items: center;
 }
 
+.footer .img p{
+    font-size: 17px;
+    margin-top: 20px;
+}
+
 .footer p{
     margin-top: 50px;
     width: 100%;
@@ -663,4 +668,18 @@
     html {
       scroll-behavior: smooth;
     }
+}
+
+.content .files{
+    text-decoration: none;
+    font-size: 30px;
+    color: #e91e63;
+    margin: 0 auto;
+    width: max-content;
+    text-align:left;
+    margin-bottom: 10px;
+}
+
+.content .files:hover{
+    text-decoration: underline;
 }
